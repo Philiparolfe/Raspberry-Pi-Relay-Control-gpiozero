@@ -3,15 +3,16 @@ This module provides functions for controlling four relays connected to a Raspbe
 
 <h2>Functions:</h2>
 
-<b>blinker(time_delay, relay_sel, blinks):</b> This function turns on and off a selected relay for a specified time delay and number of times. The parameters are: <br>
+<b>blinker(time_delay, relay_sel, blinks):</b> This function turns on and off a selected relay for a specified time delay and number of times. The parameters are:
 <b>&emsp; time_delay:</b> the delay in seconds between each blink
 <b>&emsp; relay_sel:</b> the index of the relay to blink (0 for relay1, 1 for relay2, and so on)
 <b>&emsp; blinks:</b> the number of times to blink the relay
 <br>
 <br>
-<b>switchOn(relay_sel):</b> This function turns on a selected relay. The parameter is: <br>
+<b>switchOn(relay_sel):</b> This function turns on a selected relay. The parameter is:
 <b>&emsp; relay_sel:</b> the index of the relay to turn on (0 for relay1, 1 for relay2, and so on)
-<b>switchOff(relay_sel):</b> This function turns off a selected relay. The parameter is: <br>
+<br>
+<b>switchOff(relay_sel):</b> This function turns off a selected relay. The parameter is:
 <b>&emsp; relay_sel:</b> the index of the relay to turn off (0 for relay1, 1 for relay2, and so on)
 Note that the relays are initially set to off (False), and the active_high parameter is set to True to indicate that a high output corresponds to the relay being on.
 
