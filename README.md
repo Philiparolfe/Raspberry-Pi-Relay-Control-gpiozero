@@ -1,4 +1,4 @@
-# Raspberry-Pi-Relay-Control-gpiozero
+# Raspberry Pi Relay Control with gpiozero
 <p>This module provides functions for controlling four relays connected to a Raspberry Pi's GPIO pins using the gpiozero library. The relays are connected to pins 4, 22, 6, and 26, respectively.</p>
 <h3>Functions:</h3>
 <ul>
